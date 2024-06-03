@@ -220,7 +220,7 @@ namespace a
         private string Sygnatura { get; set; }
         public Stan Stan { get; set; } = Stan.nowy;
         private string DataDodania { get; set; }
-        private bool CzyMoznaWypozyczyc { get; set; }
+        public bool CzyMoznaWypozyczyc { get; set; }
         private Bibliotekarz KtoWycofalKsiazke { get; set; }
         private string PowodWycofania { get; set; }
         private bool CzyWycofany { get; set; }
